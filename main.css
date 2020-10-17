@@ -332,7 +332,6 @@ a{
 }
 
 #footer .footer-main .logo-social{
-    background-color: royalblue;
     width: 228px;
 }
 
@@ -358,7 +357,6 @@ justify-content: flex-start;
 }
 
 #footer .footer-main .links-container{
-    background-color: seagreen;
     display: flex;
     justify-content: space-between;
     width: 820px;
@@ -382,14 +380,74 @@ justify-content: flex-start;
 #footer .footer-main .links-container .link-column a{
     display: block;
     margin-top: 16px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+#footer .footer-main .links-container .link-column a:hover{
+    color: #000;
 }
 
 #footer .footer-main .ads{
-    background-color: slateblue;
-    height: 30px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 288px;
+}
 
+#footer .footer-main .ads img{
+    max-width: 130px;
+    border-radius: 2px;
+    height: 100px;
+}
+
+#footer .footer-main .ads .ad-text{
+    width: 143px;
+}
+
+#footer .footer-main .ads .ad-text .ad-link{
+    color: #3d3d4e;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+#footer .footer-main .ads .ad-text .poweredby{
+    margin-top: 7px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #dbdbde;
+}
+
+hr{
+    width: 1400px;
+    color: #ececee;
 }
 
 #footer .footer-lower{
+    color: #6e6d7a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 44px 72px;
+    vertical-align: baseline;
+}
 
+
+#footer .footer-lower .dribbble-ball{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 7px;
+}
+
+#footer .footer-lower div>span{
+    color: #000;
 }
